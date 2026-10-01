@@ -1,0 +1,67 @@
+# C. elegans ANN 프로젝트 기본 설정
+
+# 데이터 설정
+data:
+  raw_dir: './data/raw'
+  processed_dir: './data/processed'
+  connectome_file: './data/raw/connectome.json'
+
+# 모델 저장 경로
+model:
+  save_dir: './models'
+  checkpoint_dir: './models/checkpoints'
+
+# 보고서 출력 경로
+report:
+  output_dir: './reports'
+
+# 데이터 전처리 설정
+preprocessing:
+  test_size: 0.15              # 테스트 세트 비율 15%
+  val_size: 0.15               # 검증 세트 비율 15%
+  train_size: 0.70             # 훈련 세트 비율 70%
+  random_state: 42             # 난수 시드 (재현성)
+  normalize: true              # 특징 정규화 여부
+  normalization_method: standard  # 'standard' 또는 'minmax'
+  handle_imbalance: true       # 클래스 불균형 처리
+  imbalance_method: random_oversample  # 'random_oversample' 또는 'random_undersample'
+
+# 신경망 훈련 설정
+training:
+  batch_size: 32               # 배치 크기
+  epochs: 100                  # 최대 에포크 수
+  learning_rate: 0.001         # 학습률
+  early_stopping_patience: 10  # Early stopping 기준 (검증 손실 개선 없을 때)
+  validation_split: 0.2        # 훈련 중 검증 분할 비율
+  random_seed: 42              # 난수 시드
+
+# 신경망 모델 아키텍처
+model_nn:
+  input_dim: null              # 자동 계산 (특징 개수)
+  hidden_dims: [128, 64, 32]   # 은닉층 크기
+  dropout_rate: 0.3            # Dropout 비율
+  activation: relu             # 활성화 함수
+  optimizer: adam              # 옵티마이저
+  loss: binary_crossentropy    # 손실 함수
+  metrics: ['accuracy', 'AUC'] # 평가 메트릭
+
+# XGBoost 모델 설정
+model_xgb:
+  n_estimators: 200            # 트리 개수
+  max_depth: 7                 # 트리 최대 깊이
+  learning_rate: 0.1           # 학습률
+  subsample: 0.8               # 훈련 샘플 부분 선택
+  colsample_bytree: 0.8        # 특징 부분 선택
+  scale_pos_weight: 3          # 불균형 데이터 처리
+  random_state: 42             # 난수 시드
+
+# 평가 설정
+evaluation:
+  metrics: ['accuracy', 'precision', 'recall', 'f1', 'roc_auc']
+  save_plots: true             # 그래프 저장 여부
+  plot_dir: './reports/figures'
+
+# 로깅 설정
+logging:
+  level: INFO                  # 로깅 레벨 (DEBUG, INFO, WARNING, ERROR)
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
