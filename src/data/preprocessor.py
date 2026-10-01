@@ -236,9 +236,12 @@ class DataPreprocessor:
         Returns:
             ((X_train, y_train), (X_val, y_val), (X_test, y_test))
         """
+        # 메타데이터(뉴런 ID) 제거 - 머신러닝에 사용할 수 없는 문자열 특징
+        X_numeric = X.drop(['source_neuron_id', 'target_neuron_id'], axis=1, errors='ignore')
+
         # 1단계: Test 세트 분리
         X_train_val, X_test, y_train_val, y_test = train_test_split(
-            X, y,
+            X_numeric, y,
             test_size=test_size,
             random_state=self.random_state,
             stratify=y  # 클래스 분포 유지

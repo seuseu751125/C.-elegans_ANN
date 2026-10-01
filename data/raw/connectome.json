@@ -1,0 +1,4018 @@
+{
+  "neurons": [
+    {
+      "id": "NEURON_000",
+      "name": "NEURON_000",
+      "type": "sensory",
+      "position": [
+        255.7707193831535,
+        10.004302089066774,
+        27.502931836911927
+      ]
+    },
+    {
+      "id": "NEURON_001",
+      "name": "NEURON_001",
+      "type": "sensory",
+      "position": [
+        89.2842952595291,
+        294.58848566560494,
+        67.66994874229113
+      ]
+    },
+    {
+      "id": "NEURON_002",
+      "name": "NEURON_002",
+      "type": "sensory",
+      "position": [
+        356.87182708193814,
+        34.77553305176646,
+        42.192181968527045
+      ]
+    },
+    {
+      "id": "NEURON_003",
+      "name": "NEURON_003",
+      "type": "sensory",
+      "position": [
+        11.918887775228137,
+        87.45518992144135,
+        50.53552881033624
+      ]
+    },
+    {
+      "id": "NEURON_004",
+      "name": "NEURON_004",
+      "type": "sensory",
+      "position": [
+        10.61438787354545,
+        79.5350602746594,
+        64.98844377795233
+      ]
+    },
+    {
+      "id": "NEURON_005",
+      "name": "NEURON_005",
+      "type": "sensory",
+      "position": [
+        217.97659224128668,
+        88.17624881627867,
+        58.92656838759087
+      ]
+    },
+    {
+      "id": "NEURON_006",
+      "name": "NEURON_006",
+      "type": "sensory",
+      "position": [
+        323.7721826711307,
+        2.5995038712244067,
+        80.58192518328079
+      ]
+    },
+    {
+      "id": "NEURON_007",
+      "name": "NEURON_007",
+      "type": "sensory",
+      "position": [
+        279.25575799529076,
+        136.10020660719675,
+        15.547949981178155
+      ]
+    },
+    {
+      "id": "NEURON_008",
+      "name": "NEURON_008",
+      "type": "sensory",
+      "position": [
+        382.88522888271245,
+        134.6378180450507,
+        9.27458433801479
+      ]
+    },
+    {
+      "id": "NEURON_009",
+      "name": "NEURON_009",
+      "type": "sensory",
+      "position": [
+        38.6865507333856,
+        338.9977465389839,
+        60.37260313668911
+      ]
+    },
+    {
+      "id": "NEURON_010",
+      "name": "NEURON_010",
+      "type": "sensory",
+      "position": [
+        322.8513093097521,
+        291.8927146775272,
+        53.62280914547007
+      ]
+    },
+    {
+      "id": "NEURON_011",
+      "name": "NEURON_011",
+      "type": "sensory",
+      "position": [
+        389.24630559174824,
+        151.41375088334138,
+        55.2040631273227
+      ]
+    },
+    {
+      "id": "NEURON_012",
+      "name": "NEURON_012",
+      "type": "sensory",
+      "position": [
+        331.76186570119796,
+        247.40790094569843,
+        86.17069003107773
+      ]
+    },
+    {
+      "id": "NEURON_013",
+      "name": "NEURON_013",
+      "type": "sensory",
+      "position": [
+        230.94085810270482,
+        281.8287344859694,
+        4.5824383655662215
+      ]
+    },
+    {
+      "id": "NEURON_014",
+      "name": "NEURON_014",
+      "type": "sensory",
+      "position": [
+        91.15931026061874,
+        115.75518544084287,
+        7.9791976923627495
+      ]
+    },
+    {
+      "id": "NEURON_015",
+      "name": "NEURON_015",
+      "type": "sensory",
+      "position": [
+        93.11635454441208,
+        40.40057176389165,
+        27.79736031100921
+      ]
+    },
+    {
+      "id": "NEURON_016",
+      "name": "NEURON_016",
+      "type": "sensory",
+      "position": [
+        254.27377770576007,
+        145.9328715880337,
+        37.018096711688266
+      ]
+    },
+    {
+      "id": "NEURON_017",
+      "name": "NEURON_017",
+      "type": "sensory",
+      "position": [
+        83.80281230859508,
+        106.79112881964534,
+        93.6654587712494
+      ]
+    },
+    {
+      "id": "NEURON_018",
+      "name": "NEURON_018",
+      "type": "sensory",
+      "position": [
+        259.21415409863744,
+        243.65240226679526,
+        17.1138648198097
+      ]
+    },
+    {
+      "id": "NEURON_019",
+      "name": "NEURON_019",
+      "type": "sensory",
+      "position": [
+        291.6507191801397,
+        65.36099750477136,
+        37.94554417576478
+      ]
+    },
+    {
+      "id": "NEURON_020",
+      "name": "NEURON_020",
+      "type": "sensory",
+      "position": [
+        395.8093402546381,
+        255.99990394163714,
+        55.694974377464625
+      ]
+    },
+    {
+      "id": "NEURON_021",
+      "name": "NEURON_021",
+      "type": "sensory",
+      "position": [
+        273.84570039594985,
+        337.14076807592386,
+        77.59999115462448
+      ]
+    },
+    {
+      "id": "NEURON_022",
+      "name": "NEURON_022",
+      "type": "sensory",
+      "position": [
+        91.61922878564175,
+        12.840097561615105,
+        31.54530480590819
+      ]
+    },
+    {
+      "id": "NEURON_023",
+      "name": "NEURON_023",
+      "type": "sensory",
+      "position": [
+        107.09635039028109,
+        84.39313743453059,
+        94.29097143350545
+      ]
+    },
+    {
+      "id": "NEURON_024",
+      "name": "NEURON_024",
+      "type": "sensory",
+      "position": [
+        350.54705058906757,
+        125.87115231939117,
+        65.543866529488
+      ]
+    },
+    {
+      "id": "NEURON_025",
+      "name": "NEURON_025",
+      "type": "sensory",
+      "position": [
+        158.25276042426572,
+        365.81903589621743,
+        45.88518525873988
+      ]
+    },
+    {
+      "id": "NEURON_026",
+      "name": "NEURON_026",
+      "type": "sensory",
+      "position": [
+        105.95206659922098,
+        98.65100307759337,
+        56.13681341631508
+      ]
+    },
+    {
+      "id": "NEURON_027",
+      "name": "NEURON_027",
+      "type": "sensory",
+      "position": [
+        105.0966434091741,
+        233.8343960894162,
+        89.78228836024769
+      ]
+    },
+    {
+      "id": "NEURON_028",
+      "name": "NEURON_028",
+      "type": "sensory",
+      "position": [
+        159.7602020561589,
+        87.72830366291333,
+        99.75376064951102
+      ]
+    },
+    {
+      "id": "NEURON_029",
+      "name": "NEURON_029",
+      "type": "sensory",
+      "position": [
+        203.8105174705858,
+        36.36376486951755,
+        4.711637542473457
+      ]
+    },
+    {
+      "id": "NEURON_030",
+      "name": "NEURON_030",
+      "type": "motor",
+      "position": [
+        43.85965214026366,
+        250.978416681236,
+        79.20793643629641
+      ]
+    },
+    {
+      "id": "NEURON_031",
+      "name": "NEURON_031",
+      "type": "motor",
+      "position": [
+        168.86398671987362,
+        25.41108246078285,
+        38.16192865065368
+      ]
+    },
+    {
+      "id": "NEURON_032",
+      "name": "NEURON_032",
+      "type": "motor",
+      "position": [
+        398.4485520960387,
+        211.64573803965482,
+        97.10783776136182
+      ]
+    },
+    {
+      "id": "NEURON_033",
+      "name": "NEURON_033",
+      "type": "motor",
+      "position": [
+        344.31188089379924,
+        4.592408777127854,
+        72.07218193601946
+      ]
+    },
+    {
+      "id": "NEURON_034",
+      "name": "NEURON_034",
+      "type": "motor",
+      "position": [
+        272.6841476106299,
+        214.78813216351807,
+        26.682518995254277
+      ]
+    },
+    {
+      "id": "NEURON_035",
+      "name": "NEURON_035",
+      "type": "motor",
+      "position": [
+        256.3847194319232,
+        44.620869438350574,
+        43.4765250669105
+      ]
+    },
+    {
+      "id": "NEURON_036",
+      "name": "NEURON_036",
+      "type": "motor",
+      "position": [
+        181.48948253168257,
+        381.5263710084321,
+        87.58529403781941
+      ]
+    },
+    {
+      "id": "NEURON_037",
+      "name": "NEURON_037",
+      "type": "motor",
+      "position": [
+        105.3556203004363,
+        200.23444522011934,
+        17.865188053013135
+      ]
+    },
+    {
+      "id": "NEURON_038",
+      "name": "NEURON_038",
+      "type": "motor",
+      "position": [
+        365.0511357379282,
+        348.20742793470674,
+        29.84447914486329
+      ]
+    },
+    {
+      "id": "NEURON_039",
+      "name": "NEURON_039",
+      "type": "motor",
+      "position": [
+        255.57979794640207,
+        243.58808457526894,
+        15.28392685496348
+      ]
+    },
+    {
+      "id": "NEURON_040",
+      "name": "NEURON_040",
+      "type": "motor",
+      "position": [
+        305.0043200300605,
+        215.7516120478503,
+        77.86264786305583
+      ]
+    },
+    {
+      "id": "NEURON_041",
+      "name": "NEURON_041",
+      "type": "motor",
+      "position": [
+        212.14146887807098,
+        0.22875845117740212,
+        32.41560570046731
+      ]
+    },
+    {
+      "id": "NEURON_042",
+      "name": "NEURON_042",
+      "type": "motor",
+      "position": [
+        7.790696954332921,
+        371.6394465058468,
+        87.87218778231842
+      ]
+    },
+    {
+      "id": "NEURON_043",
+      "name": "NEURON_043",
+      "type": "motor",
+      "position": [
+        332.66621174447175,
+        123.00565016106458,
+        5.792516649418755
+      ]
+    },
+    {
+      "id": "NEURON_044",
+      "name": "NEURON_044",
+      "type": "motor",
+      "position": [
+        351.2038396816162,
+        378.77977811919766,
+        8.565345206787878
+      ]
+    },
+    {
+      "id": "NEURON_045",
+      "name": "NEURON_045",
+      "type": "motor",
+      "position": [
+        194.3961853266455,
+        27.685007387353444,
+        76.06021652572316
+      ]
+    },
+    {
+      "id": "NEURON_046",
+      "name": "NEURON_046",
+      "type": "motor",
+      "position": [
+        306.3337717227951,
+        51.35658579990512,
+        47.52823780987313
+      ]
+    },
+    {
+      "id": "NEURON_047",
+      "name": "NEURON_047",
+      "type": "motor",
+      "position": [
+        219.92143739797757,
+        106.02265157602363,
+        87.24330410852575
+      ]
+    },
+    {
+      "id": "NEURON_048",
+      "name": "NEURON_048",
+      "type": "motor",
+      "position": [
+        169.25517608035477,
+        84.71928217683282,
+        53.92960887794583
+      ]
+    },
+    {
+      "id": "NEURON_049",
+      "name": "NEURON_049",
+      "type": "motor",
+      "position": [
+        291.97242763599047,
+        80.46042535587836,
+        31.171629130089496
+      ]
+    },
+    {
+      "id": "NEURON_050",
+      "name": "NEURON_050",
+      "type": "motor",
+      "position": [
+        398.0597426643579,
+        259.9512230557814,
+        43.8100083914504
+      ]
+    },
+    {
+      "id": "NEURON_051",
+      "name": "NEURON_051",
+      "type": "motor",
+      "position": [
+        207.03033641423625,
+        48.40167834730629,
+        22.469733703155736
+      ]
+    },
+    {
+      "id": "NEURON_052",
+      "name": "NEURON_052",
+      "type": "motor",
+      "position": [
+        135.23422485898215,
+        235.32348738289332,
+        23.0114732596577
+      ]
+    },
+    {
+      "id": "NEURON_053",
+      "name": "NEURON_053",
+      "type": "motor",
+      "position": [
+        88.08695378062379,
+        28.397234403613012,
+        63.11029572700989
+      ]
+    },
+    {
+      "id": "NEURON_054",
+      "name": "NEURON_054",
+      "type": "motor",
+      "position": [
+        91.57671352446175,
+        362.1680052024512,
+        85.96354002537466
+      ]
+    },
+    {
+      "id": "NEURON_055",
+      "name": "NEURON_055",
+      "type": "motor",
+      "position": [
+        28.342939955461375,
+        95.20185374759808,
+        66.89777782962805
+      ]
+    },
+    {
+      "id": "NEURON_056",
+      "name": "NEURON_056",
+      "type": "motor",
+      "position": [
+        85.69472294817544,
+        52.92473949001,
+        93.5514240580671
+      ]
+    },
+    {
+      "id": "NEURON_057",
+      "name": "NEURON_057",
+      "type": "motor",
+      "position": [
+        228.41723733011378,
+        189.06841052471765,
+        78.46194242907534
+      ]
+    },
+    {
+      "id": "NEURON_058",
+      "name": "NEURON_058",
+      "type": "motor",
+      "position": [
+        322.9987991066574,
+        76.16396574475108,
+        9.693081422882333
+      ]
+    },
+    {
+      "id": "NEURON_059",
+      "name": "NEURON_059",
+      "type": "motor",
+      "position": [
+        172.420472962551,
+        169.4314492079683,
+        46.7024668036675
+      ]
+    },
+    {
+      "id": "NEURON_060",
+      "name": "NEURON_060",
+      "type": "motor",
+      "position": [
+        291.63033978394026,
+        269.3458189173206,
+        98.41652113659661
+      ]
+    },
+    {
+      "id": "NEURON_061",
+      "name": "NEURON_061",
+      "type": "motor",
+      "position": [
+        39.367148460783554,
+        161.0485128409075,
+        33.93026053949632
+      ]
+    },
+    {
+      "id": "NEURON_062",
+      "name": "NEURON_062",
+      "type": "motor",
+      "position": [
+        344.66901454111644,
+        99.46253356811425,
+        19.02089084408115
+      ]
+    },
+    {
+      "id": "NEURON_063",
+      "name": "NEURON_063",
+      "type": "motor",
+      "position": [
+        179.44541913325276,
+        168.75265593376167,
+        27.85451446669405
+      ]
+    },
+    {
+      "id": "NEURON_064",
+      "name": "NEURON_064",
+      "type": "motor",
+      "position": [
+        99.9225791528402,
+        369.3062397104051,
+        44.313074505345696
+      ]
+    },
+    {
+      "id": "NEURON_065",
+      "name": "NEURON_065",
+      "type": "motor",
+      "position": [
+        344.5396419047322,
+        220.1301249799392,
+        5.058832952488124
+      ]
+    },
+    {
+      "id": "NEURON_066",
+      "name": "NEURON_066",
+      "type": "motor",
+      "position": [
+        399.71298736509067,
+        334.41103403198076,
+        96.89962572847513
+      ]
+    },
+    {
+      "id": "NEURON_067",
+      "name": "NEURON_067",
+      "type": "motor",
+      "position": [
+        370.546793203251,
+        339.4782937657222,
+        16.6311110603914
+      ]
+    },
+    {
+      "id": "NEURON_068",
+      "name": "NEURON_068",
+      "type": "motor",
+      "position": [
+        194.2564501802874,
+        85.49891967967267,
+        40.10402925494526
+      ]
+    },
+    {
+      "id": "NEURON_069",
+      "name": "NEURON_069",
+      "type": "motor",
+      "position": [
+        23.45415998887157,
+        151.58924759076643,
+        98.5308843779726
+      ]
+    },
+    {
+      "id": "NEURON_070",
+      "name": "NEURON_070",
+      "type": "motor",
+      "position": [
+        106.08122326886078,
+        313.62824077942776,
+        45.500836733914326
+      ]
+    },
+    {
+      "id": "NEURON_071",
+      "name": "NEURON_071",
+      "type": "motor",
+      "position": [
+        169.20299439606515,
+        382.92705634386925,
+        99.54226894927139
+      ]
+    },
+    {
+      "id": "NEURON_072",
+      "name": "NEURON_072",
+      "type": "motor",
+      "position": [
+        222.3073293622473,
+        287.3633101185304,
+        15.479682527406414
+      ]
+    },
+    {
+      "id": "NEURON_073",
+      "name": "NEURON_073",
+      "type": "motor",
+      "position": [
+        118.68313019782568,
+        387.48374598766355,
+        57.91802908162562
+      ]
+    },
+    {
+      "id": "NEURON_074",
+      "name": "NEURON_074",
+      "type": "motor",
+      "position": [
+        216.8780805497097,
+        299.1902241516256,
+        5.716527290748308
+      ]
+    },
+    {
+      "id": "NEURON_075",
+      "name": "NEURON_075",
+      "type": "motor",
+      "position": [
+        233.67103778358847,
+        201.14015316780544,
+        85.27198920482853
+      ]
+    },
+    {
+      "id": "NEURON_076",
+      "name": "NEURON_076",
+      "type": "motor",
+      "position": [
+        62.97309117579331,
+        384.31156130978013,
+        8.011146524058688
+      ]
+    },
+    {
+      "id": "NEURON_077",
+      "name": "NEURON_077",
+      "type": "motor",
+      "position": [
+        74.32998439228928,
+        238.01404258001105,
+        67.52125536040901
+      ]
+    },
+    {
+      "id": "NEURON_078",
+      "name": "NEURON_078",
+      "type": "motor",
+      "position": [
+        94.08155800037248,
+        47.95464557884968,
+        89.02873141294376
+      ]
+    },
+    {
+      "id": "NEURON_079",
+      "name": "NEURON_079",
+      "type": "motor",
+      "position": [
+        98.48613911544994,
+        237.80766141337648,
+        61.93815103321031
+      ]
+    },
+    {
+      "id": "NEURON_080",
+      "name": "NEURON_080",
+      "type": "motor",
+      "position": [
+        167.689966134349,
+        233.4689157164899,
+        52.278271553195886
+      ]
+    },
+    {
+      "id": "NEURON_081",
+      "name": "NEURON_081",
+      "type": "motor",
+      "position": [
+        373.8825030945709,
+        81.70367976941458,
+        71.61918007894148
+      ]
+    },
+    {
+      "id": "NEURON_082",
+      "name": "NEURON_082",
+      "type": "motor",
+      "position": [
+        95.47438104633841,
+        158.3143387165018,
+        67.16902229599712
+      ]
+    },
+    {
+      "id": "NEURON_083",
+      "name": "NEURON_083",
+      "type": "motor",
+      "position": [
+        119.9988319195049,
+        126.4708785087416,
+        75.18644924144022
+      ]
+    },
+    {
+      "id": "NEURON_084",
+      "name": "NEURON_084",
+      "type": "motor",
+      "position": [
+        29.017245797262923,
+        183.31420904743445,
+        99.84544408544423
+      ]
+    },
+    {
+      "id": "NEURON_085",
+      "name": "NEURON_085",
+      "type": "motor",
+      "position": [
+        398.4385791420378,
+        29.3042884398532,
+        21.31543122670404
+      ]
+    },
+    {
+      "id": "NEURON_086",
+      "name": "NEURON_086",
+      "type": "motor",
+      "position": [
+        106.08016590016054,
+        373.3037511974836,
+        88.08641736864395
+      ]
+    },
+    {
+      "id": "NEURON_087",
+      "name": "NEURON_087",
+      "type": "motor",
+      "position": [
+        351.7080969938171,
+        147.8108354955536,
+        15.774683235723197
+      ]
+    },
+    {
+      "id": "NEURON_088",
+      "name": "NEURON_088",
+      "type": "motor",
+      "position": [
+        333.49798185592283,
+        281.4159700349484,
+        61.16777657259501
+      ]
+    },
+    {
+      "id": "NEURON_089",
+      "name": "NEURON_089",
+      "type": "motor",
+      "position": [
+        394.8932254526017,
+        261.59052708429306,
+        0.7823107152157949
+      ]
+    },
+    {
+      "id": "NEURON_090",
+      "name": "NEURON_090",
+      "type": "motor",
+      "position": [
+        326.84165404618466,
+        119.75150087999116,
+        66.33887149660774
+      ]
+    },
+    {
+      "id": "NEURON_091",
+      "name": "NEURON_091",
+      "type": "motor",
+      "position": [
+        375.57200157084156,
+        53.71644575734709,
+        11.54286704191022
+      ]
+    },
+    {
+      "id": "NEURON_092",
+      "name": "NEURON_092",
+      "type": "motor",
+      "position": [
+        42.814391083767056,
+        221.28945635392637,
+        27.234821231481632
+      ]
+    },
+    {
+      "id": "NEURON_093",
+      "name": "NEURON_093",
+      "type": "motor",
+      "position": [
+        241.93193081208958,
+        287.0448748555192,
+        20.359731232745293
+      ]
+    },
+    {
+      "id": "NEURON_094",
+      "name": "NEURON_094",
+      "type": "motor",
+      "position": [
+        253.6951835540319,
+        105.59356065216376,
+        48.85318521493765
+      ]
+    },
+    {
+      "id": "NEURON_095",
+      "name": "NEURON_095",
+      "type": "motor",
+      "position": [
+        362.1345964317293,
+        338.4414853179422,
+        9.229846771273342
+      ]
+    },
+    {
+      "id": "NEURON_096",
+      "name": "NEURON_096",
+      "type": "motor",
+      "position": [
+        169.43030902549054,
+        110.67208958890066,
+        0.35456890877823
+      ]
+    },
+    {
+      "id": "NEURON_097",
+      "name": "NEURON_097",
+      "type": "motor",
+      "position": [
+        308.44768920785083,
+        254.84535092055185,
+        26.19552624343482
+      ]
+    },
+    {
+      "id": "NEURON_098",
+      "name": "NEURON_098",
+      "type": "motor",
+      "position": [
+        296.4923633391723,
+        220.6721684505565,
+        42.768691898067935
+      ]
+    },
+    {
+      "id": "NEURON_099",
+      "name": "NEURON_099",
+      "type": "motor",
+      "position": [
+        3.8678798433359862,
+        30.097544029506818,
+        88.3106393300143
+      ]
+    }
+  ],
+  "synapses": [
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_069",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_047",
+      "target": "NEURON_074",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_018",
+      "target": "NEURON_055",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_005",
+      "target": "NEURON_039",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_005",
+      "target": "NEURON_045",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_087",
+      "target": "NEURON_031",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_045",
+      "target": "NEURON_099",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_052",
+      "target": "NEURON_079",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_030",
+      "target": "NEURON_020",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_052",
+      "target": "NEURON_003",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_094",
+      "target": "NEURON_042",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_085",
+      "target": "NEURON_094",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_034",
+      "target": "NEURON_020",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_048",
+      "target": "NEURON_004",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_025",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_044",
+      "target": "NEURON_039",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_003",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_051",
+      "target": "NEURON_042",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_098",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_044",
+      "target": "NEURON_082",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_051",
+      "target": "NEURON_086",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_042",
+      "target": "NEURON_003",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_033",
+      "target": "NEURON_022",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_033",
+      "target": "NEURON_004",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_076",
+      "target": "NEURON_055",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_093",
+      "target": "NEURON_040",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_065",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_049",
+      "target": "NEURON_073",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_032",
+      "target": "NEURON_005",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_000",
+      "target": "NEURON_066",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_087",
+      "target": "NEURON_092",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_046",
+      "target": "NEURON_055",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_085",
+      "target": "NEURON_042",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_040",
+      "target": "NEURON_084",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_092",
+      "target": "NEURON_038",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_085",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_041",
+      "target": "NEURON_051",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_016",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_085",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_086",
+      "target": "NEURON_095",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_078",
+      "target": "NEURON_072",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_051",
+      "target": "NEURON_070",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_038",
+      "target": "NEURON_036",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_055",
+      "target": "NEURON_074",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_083",
+      "target": "NEURON_041",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_086",
+      "target": "NEURON_027",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_094",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_010",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_065",
+      "target": "NEURON_084",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_042",
+      "target": "NEURON_011",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_086",
+      "target": "NEURON_039",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_025",
+      "target": "NEURON_018",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_005",
+      "target": "NEURON_031",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_078",
+      "target": "NEURON_098",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_053",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_024",
+      "target": "NEURON_091",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_063",
+      "target": "NEURON_051",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_018",
+      "target": "NEURON_083",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_096",
+      "target": "NEURON_098",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_099",
+      "target": "NEURON_054",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_022",
+      "target": "NEURON_089",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_059",
+      "target": "NEURON_006",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_031",
+      "target": "NEURON_015",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_017",
+      "target": "NEURON_059",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_071",
+      "target": "NEURON_076",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_096",
+      "target": "NEURON_056",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_092",
+      "target": "NEURON_064",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_057",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_095",
+      "target": "NEURON_060",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_033",
+      "target": "NEURON_096",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_081",
+      "target": "NEURON_035",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_080",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_035",
+      "target": "NEURON_056",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_091",
+      "target": "NEURON_036",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_034",
+      "target": "NEURON_042",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_069",
+      "target": "NEURON_010",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_029",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_088",
+      "target": "NEURON_019",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_053",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_042",
+      "target": "NEURON_069",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_007",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_049",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_002",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_048",
+      "target": "NEURON_061",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_045",
+      "target": "NEURON_038",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_068",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_028",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_034",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_003",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_043",
+      "target": "NEURON_085",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_092",
+      "target": "NEURON_021",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_016",
+      "target": "NEURON_079",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_003",
+      "target": "NEURON_050",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_072",
+      "target": "NEURON_084",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_010",
+      "target": "NEURON_082",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_023",
+      "target": "NEURON_006",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_048",
+      "target": "NEURON_041",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_041",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_048",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_096",
+      "target": "NEURON_053",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_010",
+      "target": "NEURON_060",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_095",
+      "target": "NEURON_069",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_044",
+      "target": "NEURON_028",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_099",
+      "target": "NEURON_083",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_096",
+      "target": "NEURON_003",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_025",
+      "target": "NEURON_002",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_030",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_085",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_072",
+      "target": "NEURON_027",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_032",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_021",
+      "target": "NEURON_077",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_095",
+      "target": "NEURON_091",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_099",
+      "target": "NEURON_020",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_013",
+      "target": "NEURON_074",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_073",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_050",
+      "target": "NEURON_091",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_009",
+      "target": "NEURON_075",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_013",
+      "target": "NEURON_089",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_087",
+      "target": "NEURON_076",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_072",
+      "target": "NEURON_005",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_068",
+      "target": "NEURON_054",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_064",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_001",
+      "target": "NEURON_053",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_013",
+      "target": "NEURON_055",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_081",
+      "target": "NEURON_058",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_055",
+      "target": "NEURON_022",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_083",
+      "target": "NEURON_034",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_068",
+      "target": "NEURON_099",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_059",
+      "target": "NEURON_055",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_034",
+      "target": "NEURON_041",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_011",
+      "target": "NEURON_035",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_031",
+      "target": "NEURON_096",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_072",
+      "target": "NEURON_078",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_043",
+      "target": "NEURON_003",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_041",
+      "target": "NEURON_023",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_027",
+      "target": "NEURON_045",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_043",
+      "target": "NEURON_035",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_035",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_001",
+      "target": "NEURON_066",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_010",
+      "target": "NEURON_030",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_071",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_088",
+      "target": "NEURON_060",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_057",
+      "target": "NEURON_002",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_037",
+      "target": "NEURON_028",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_088",
+      "target": "NEURON_031",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_074",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_070",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_044",
+      "target": "NEURON_054",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_042",
+      "target": "NEURON_045",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_034",
+      "target": "NEURON_039",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_029",
+      "target": "NEURON_015",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_040",
+      "target": "NEURON_015",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_088",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_024",
+      "target": "NEURON_027",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_035",
+      "target": "NEURON_092",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_067",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_012",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_037",
+      "target": "NEURON_029",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_022",
+      "target": "NEURON_038",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_090",
+      "target": "NEURON_068",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_035",
+      "target": "NEURON_005",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_037",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_081",
+      "target": "NEURON_096",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_013",
+      "target": "NEURON_001",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_060",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_056",
+      "target": "NEURON_043",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_006",
+      "target": "NEURON_032",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_014",
+      "target": "NEURON_008",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_009",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_080",
+      "target": "NEURON_087",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_072",
+      "target": "NEURON_038",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_071",
+      "target": "NEURON_097",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_076",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_099",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_048",
+      "target": "NEURON_057",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_038",
+      "target": "NEURON_075",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_072",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_007",
+      "target": "NEURON_078",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_026",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_033",
+      "target": "NEURON_084",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_020",
+      "target": "NEURON_030",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_009",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_000",
+      "target": "NEURON_052",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_088",
+      "target": "NEURON_076",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_037",
+      "target": "NEURON_004",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_090",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_058",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_087",
+      "target": "NEURON_029",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_080",
+      "target": "NEURON_075",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_054",
+      "target": "NEURON_014",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_082",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_034",
+      "target": "NEURON_018",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_007",
+      "target": "NEURON_021",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_076",
+      "target": "NEURON_095",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_056",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_059",
+      "target": "NEURON_088",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_051",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_064",
+      "target": "NEURON_069",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_056",
+      "target": "NEURON_010",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_005",
+      "target": "NEURON_055",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_032",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_011",
+      "target": "NEURON_029",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_075",
+      "target": "NEURON_002",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_073",
+      "target": "NEURON_005",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_066",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_035",
+      "target": "NEURON_023",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_055",
+      "target": "NEURON_081",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_011",
+      "target": "NEURON_060",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_052",
+      "target": "NEURON_042",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_085",
+      "target": "NEURON_013",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_042",
+      "target": "NEURON_052",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_084",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_070",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_011",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_032",
+      "target": "NEURON_041",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_098",
+      "target": "NEURON_051",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_000",
+      "target": "NEURON_084",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_059",
+      "target": "NEURON_052",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_024",
+      "target": "NEURON_066",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_079",
+      "target": "NEURON_096",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_080",
+      "target": "NEURON_056",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_026",
+      "target": "NEURON_034",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_016",
+      "target": "NEURON_036",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_062",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_003",
+      "target": "NEURON_080",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_030",
+      "target": "NEURON_090",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_070",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_052",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_014",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_015",
+      "target": "NEURON_082",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_063",
+      "target": "NEURON_091",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_065",
+      "target": "NEURON_090",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_061",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_031",
+      "target": "NEURON_058",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_018",
+      "target": "NEURON_049",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_076",
+      "target": "NEURON_065",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_035",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_043",
+      "target": "NEURON_064",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_000",
+      "target": "NEURON_036",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_075",
+      "target": "NEURON_074",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_057",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_061",
+      "target": "NEURON_044",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_097",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_048",
+      "target": "NEURON_058",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_024",
+      "target": "NEURON_089",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_073",
+      "target": "NEURON_049",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_099",
+      "target": "NEURON_052",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_040",
+      "target": "NEURON_095",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_090",
+      "target": "NEURON_048",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_083",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_063",
+      "target": "NEURON_004",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_064",
+      "target": "NEURON_075",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_012",
+      "target": "NEURON_056",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_067",
+      "target": "NEURON_058",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_092",
+      "target": "NEURON_018",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_083",
+      "target": "NEURON_019",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_033",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_079",
+      "target": "NEURON_088",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_083",
+      "target": "NEURON_010",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_086",
+      "target": "NEURON_068",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_040",
+      "target": "NEURON_080",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_069",
+      "target": "NEURON_004",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_030",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_029",
+      "target": "NEURON_095",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_055",
+      "target": "NEURON_012",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_056",
+      "target": "NEURON_021",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_003",
+      "target": "NEURON_005",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_007",
+      "target": "NEURON_037",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_047",
+      "target": "NEURON_055",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_031",
+      "target": "NEURON_067",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_072",
+      "target": "NEURON_087",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_021",
+      "target": "NEURON_022",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_078",
+      "target": "NEURON_048",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_087",
+      "target": "NEURON_030",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_074",
+      "target": "NEURON_018",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_059",
+      "target": "NEURON_081",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_032",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_059",
+      "target": "NEURON_036",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_020",
+      "target": "NEURON_009",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_044",
+      "target": "NEURON_075",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_081",
+      "target": "NEURON_054",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_038",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_049",
+      "target": "NEURON_061",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_030",
+      "target": "NEURON_048",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_045",
+      "target": "NEURON_073",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_037",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_050",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_001",
+      "target": "NEURON_072",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_095",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_099",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_045",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_081",
+      "target": "NEURON_024",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_032",
+      "target": "NEURON_086",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_080",
+      "target": "NEURON_012",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_056",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_074",
+      "target": "NEURON_046",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_011",
+      "target": "NEURON_037",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_095",
+      "target": "NEURON_053",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_025",
+      "target": "NEURON_016",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_046",
+      "target": "NEURON_067",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_034",
+      "target": "NEURON_021",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_061",
+      "target": "NEURON_037",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_014",
+      "target": "NEURON_059",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_018",
+      "target": "NEURON_096",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_086",
+      "target": "NEURON_092",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_071",
+      "target": "NEURON_046",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_050",
+      "target": "NEURON_001",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_068",
+      "target": "NEURON_015",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_047",
+      "target": "NEURON_086",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_074",
+      "target": "NEURON_048",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_013",
+      "target": "NEURON_086",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_003",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_071",
+      "target": "NEURON_041",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_081",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_038",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_014",
+      "target": "NEURON_017",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_004",
+      "target": "NEURON_038",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_014",
+      "target": "NEURON_012",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_068",
+      "target": "NEURON_017",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_047",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_075",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_083",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_078",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_035",
+      "target": "NEURON_004",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_027",
+      "target": "NEURON_056",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_030",
+      "target": "NEURON_046",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_087",
+      "target": "NEURON_047",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_082",
+      "target": "NEURON_045",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_050",
+      "target": "NEURON_035",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_015",
+      "target": "NEURON_058",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_027",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_002",
+      "target": "NEURON_006",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_031",
+      "target": "NEURON_016",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_026",
+      "target": "NEURON_008",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_026",
+      "target": "NEURON_075",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_029",
+      "target": "NEURON_042",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_076",
+      "target": "NEURON_000",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_018",
+      "target": "NEURON_016",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_032",
+      "target": "NEURON_022",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_003",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_001",
+      "target": "NEURON_045",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_075",
+      "target": "NEURON_041",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_022",
+      "target": "NEURON_033",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_016",
+      "target": "NEURON_094",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_067",
+      "target": "NEURON_014",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_057",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_065",
+      "target": "NEURON_075",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_057",
+      "target": "NEURON_064",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_078",
+      "target": "NEURON_005",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_038",
+      "target": "NEURON_058",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_007",
+      "target": "NEURON_061",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_054",
+      "target": "NEURON_087",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_091",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_009",
+      "target": "NEURON_010",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_018",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_016",
+      "target": "NEURON_035",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_081",
+      "target": "NEURON_074",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_091",
+      "target": "NEURON_041",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_076",
+      "target": "NEURON_067",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_064",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_014",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_092",
+      "target": "NEURON_027",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_057",
+      "target": "NEURON_029",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_043",
+      "target": "NEURON_058",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_093",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_040",
+      "target": "NEURON_054",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_085",
+      "target": "NEURON_032",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_087",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_011",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_011",
+      "target": "NEURON_055",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_095",
+      "target": "NEURON_094",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_016",
+      "target": "NEURON_071",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_075",
+      "target": "NEURON_071",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_042",
+      "target": "NEURON_085",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_052",
+      "target": "NEURON_045",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_092",
+      "target": "NEURON_006",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_076",
+      "target": "NEURON_039",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_013",
+      "target": "NEURON_073",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_027",
+      "target": "NEURON_019",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_013",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_071",
+      "target": "NEURON_047",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_035",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_028",
+      "target": "NEURON_054",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_098",
+      "target": "NEURON_079",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_086",
+      "target": "NEURON_082",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_003",
+      "target": "NEURON_077",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_003",
+      "target": "NEURON_023",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_089",
+      "target": "NEURON_097",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_043",
+      "target": "NEURON_044",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_023",
+      "target": "NEURON_018",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_051",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_018",
+      "target": "NEURON_094",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_011",
+      "target": "NEURON_095",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_027",
+      "target": "NEURON_048",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_058",
+      "target": "NEURON_043",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_047",
+      "target": "NEURON_039",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_099",
+      "target": "NEURON_072",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_010",
+      "target": "NEURON_006",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_020",
+      "target": "NEURON_096",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_006",
+      "target": "NEURON_086",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_034",
+      "target": "NEURON_056",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_077",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_053",
+      "target": "NEURON_034",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_096",
+      "target": "NEURON_065",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_044",
+      "target": "NEURON_055",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_086",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_062",
+      "target": "NEURON_067",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_005",
+      "target": "NEURON_028",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_076",
+      "target": "NEURON_007",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_026",
+      "target": "NEURON_038",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_098",
+      "target": "NEURON_017",
+      "weight": 9,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_037",
+      "target": "NEURON_041",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_000",
+      "target": "NEURON_063",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_022",
+      "target": "NEURON_016",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_068",
+      "target": "NEURON_090",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_064",
+      "target": "NEURON_071",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_009",
+      "target": "NEURON_050",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_055",
+      "target": "NEURON_002",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_009",
+      "target": "NEURON_040",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_054",
+      "target": "NEURON_073",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_090",
+      "target": "NEURON_081",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_037",
+      "target": "NEURON_014",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_002",
+      "target": "NEURON_041",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_079",
+      "target": "NEURON_058",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_013",
+      "target": "NEURON_031",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_075",
+      "target": "NEURON_051",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_010",
+      "target": "NEURON_050",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_095",
+      "target": "NEURON_043",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_042",
+      "target": "NEURON_099",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_009",
+      "target": "NEURON_065",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_067",
+      "target": "NEURON_065",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_099",
+      "target": "NEURON_044",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_093",
+      "target": "NEURON_082",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_030",
+      "target": "NEURON_013",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_032",
+      "target": "NEURON_025",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_077",
+      "target": "NEURON_019",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_022",
+      "target": "NEURON_098",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_059",
+      "target": "NEURON_096",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_074",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_087",
+      "target": "NEURON_072",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_041",
+      "target": "NEURON_080",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_056",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_060",
+      "target": "NEURON_056",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_035",
+      "target": "NEURON_075",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_045",
+      "target": "NEURON_064",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_059",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_004",
+      "target": "NEURON_007",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_009",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_078",
+      "target": "NEURON_076",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_049",
+      "target": "NEURON_059",
+      "weight": 19,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_094",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_057",
+      "target": "NEURON_073",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_041",
+      "target": "NEURON_077",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_064",
+      "target": "NEURON_019",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_057",
+      "target": "NEURON_013",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_091",
+      "target": "NEURON_010",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_082",
+      "target": "NEURON_022",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_031",
+      "target": "NEURON_090",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_056",
+      "target": "NEURON_067",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_078",
+      "target": "NEURON_020",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_047",
+      "target": "NEURON_036",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_052",
+      "target": "NEURON_099",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_086",
+      "target": "NEURON_076",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_080",
+      "target": "NEURON_082",
+      "weight": 11,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_008",
+      "target": "NEURON_042",
+      "weight": 4,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_071",
+      "target": "NEURON_086",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_032",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_042",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_074",
+      "target": "NEURON_084",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_083",
+      "target": "NEURON_089",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_016",
+      "target": "NEURON_076",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_071",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_082",
+      "target": "NEURON_042",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_085",
+      "target": "NEURON_089",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_011",
+      "target": "NEURON_082",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_065",
+      "target": "NEURON_046",
+      "weight": 1,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_046",
+      "target": "NEURON_039",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_027",
+      "target": "NEURON_043",
+      "weight": 16,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_024",
+      "target": "NEURON_028",
+      "weight": 5,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_019",
+      "target": "NEURON_009",
+      "weight": 10,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_012",
+      "target": "NEURON_064",
+      "weight": 18,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_094",
+      "target": "NEURON_067",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_084",
+      "target": "NEURON_043",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_048",
+      "target": "NEURON_019",
+      "weight": 6,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_023",
+      "target": "NEURON_088",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_021",
+      "target": "NEURON_092",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_005",
+      "target": "NEURON_052",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_030",
+      "target": "NEURON_056",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_036",
+      "target": "NEURON_096",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_029",
+      "target": "NEURON_068",
+      "weight": 8,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_039",
+      "target": "NEURON_060",
+      "weight": 7,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_073",
+      "target": "NEURON_056",
+      "weight": 15,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_098",
+      "target": "NEURON_036",
+      "weight": 13,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_064",
+      "target": "NEURON_067",
+      "weight": 14,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_020",
+      "target": "NEURON_025",
+      "weight": 20,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_017",
+      "target": "NEURON_032",
+      "weight": 2,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_082",
+      "target": "NEURON_061",
+      "weight": 12,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_070",
+      "target": "NEURON_013",
+      "weight": 17,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_015",
+      "target": "NEURON_036",
+      "weight": 3,
+      "type": "chemical"
+    },
+    {
+      "source": "NEURON_097",
+      "target": "NEURON_020",
+      "weight": 9,
+      "type": "chemical"
+    }
+  ],
+  "metadata": {
+    "source": "generated_test_data",
+    "description": "Test data for pipeline validation",
+    "num_neurons": 100,
+    "num_synapses": 500,
+    "neuron_types": {
+      "sensory": 30,
+      "motor": 70,
+      "interneuron": 0,
+      "polymodal": 0
+    }
+  }
+}
