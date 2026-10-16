@@ -1,7 +1,7 @@
 """
-C. elegans Artificial Neural Network (ANN) - TensorFlow Version
-A complete neural network implementation for analyzing C. elegans biological data.
-Supports: gene expression, connectome analysis, behavioral prediction, protein interactions.
+C. elegans 인공신경망(ANN) - TensorFlow 버전
+C. elegans 생물학적 데이터를 분석하기 위한 완전한 신경망 구현입니다.
+지원: 유전자 발현, 연결체(connectome) 분석, 행동 예측, 단백질 상호작용.
 """
 
 import tensorflow as tf
@@ -22,10 +22,10 @@ from datetime import datetime
 
 
 # ============================================================================
-# Configuration Management
+# 설정 관리
 # ============================================================================
 class Config:
-    """Load and manage configuration from YAML or defaults."""
+    """YAML 또는 기본값에서 설정을 로드하고 관리합니다."""
     
     DEFAULT_CONFIG = {
         'model': {
@@ -67,7 +67,7 @@ class Config:
     
     @staticmethod
     def _deep_update(d: Dict, u: Dict) -> None:
-        """Recursively update dictionary d with u."""
+        """사전 d를 재귀적으로 u로 업데이트합니다."""
         for k, v in u.items():
             if isinstance(v, dict):
                 if k not in d:
@@ -84,27 +84,27 @@ class Config:
 
 
 # ============================================================================
-# Dataset Generation (Synthetic C. elegans Data)
+# 데이터셋 생성 (합성 C. elegans 데이터)
 # ============================================================================
 class CElegansDataset:
     """
-    Synthetic dataset for C. elegans biological data.
-    Generates data for:
-    - Gene expression patterns
-    - Connectome connectivity
-    - Behavioral features
-    - Protein interactions
+    C. elegans 생물학적 데이터를 위한 합성 데이터셋.
+    생성 항목:
+    - 유전자 발현 패턴
+    - 연결체(connectome) 연결 정보
+    - 행동 특성
+    - 단백질 상호작용
     """
     
     def __init__(self, n_samples: int = 1000, input_size: int = 100, 
                  output_size: int = 1, task: str = 'regression', seed: int = 42):
         """
         Args:
-            n_samples: Number of samples
-            input_size: Input feature dimension (genes/neurons)
-            output_size: Output dimension (prediction target)
-            task: 'regression' or 'classification'
-            seed: Random seed
+            n_samples: 샘플 수
+            input_size: 입력 특성 차원 (유전자/뉴런)
+            output_size: 출력 차원 (예측 대상)
+            task: 'regression' 또는 'classification'
+            seed: 랜덤 시드
         """
         np.random.seed(seed)
         tf.random.set_seed(seed)
@@ -117,12 +117,12 @@ class CElegansDataset:
         self.X, self.y = self._generate_synthetic_data()
     
     def _generate_synthetic_data(self) -> Tuple[np.ndarray, np.ndarray]:
-        """Generate synthetic C. elegans biological data."""
-        # Gene expression patterns (lognormal distribution)
+        """합성 C. elegans 생물학적 데이터를 생성합니다."""
+        # 유전자 발현 패턴 (로그정규 분포)
         X = np.random.lognormal(mean=0, sigma=1.5, size=(self.n_samples, self.input_size))
-        X = X / (X.max(axis=0) + 1e-8)  # Normalize to [0, 1]
+        X = X / (X.max(axis=0) + 1e-8)  # [0, 1]로 정규화
         
-        # Create target variable with nonlinear relationship
+        # 비선형 관계로 타깃 변수 생성
         weights = np.random.randn(self.input_size)
         y = np.dot(X, weights) + np.random.randn(self.input_size) @ np.random.randn(self.input_size, self.output_size)
         
@@ -134,7 +134,7 @@ class CElegansDataset:
         return X.astype(np.float32), y
     
     def get_train_test_split(self, test_size: float = 0.2, val_size: float = 0.1):
-        """Split data into train, validation, and test sets."""
+        """학습/검증/테스트 세트로 데이터를 분할합니다."""
         X_train, X_test, y_train, y_test = train_test_split(
             self.X, self.y, test_size=test_size, random_state=42
         )
@@ -147,12 +147,12 @@ class CElegansDataset:
 
 
 # ============================================================================
-# Neural Network Model Builder
+# 신경망 모델 빌더
 # ============================================================================
 class CElegansANNBuilder:
     """
-    Builder for C. elegans ANN using TensorFlow/Keras.
-    Configurable architecture with dropout and batch normalization.
+    TensorFlow/Keras를 이용한 C. elegans ANN 빌더.
+    드롭아웃과 배치 정규화를 적용할 수 있는 구성 가능 아키텍처.
     """
     
     def __init__(self, config: Dict):
@@ -160,7 +160,7 @@ class CElegansANNBuilder:
         self.model = self._build_model()
     
     def _build_model(self) -> models.Sequential:
-        """Build sequential neural network model."""
+        """순차 신경망 모델을 구성합니다."""
         model_cfg = self.config['model']
         input_size = model_cfg['input_size']
         hidden_sizes = model_cfg['hidden_sizes']
@@ -171,31 +171,31 @@ class CElegansANNBuilder:
         
         model = models.Sequential()
         
-        # Input and first hidden layer
+        # 입력 및 첫 번째 은닉층
         model.add(layers.Input(shape=(input_size,)))
         
-        # Hidden layers
+        # 은닉층들
         for hidden_size in hidden_sizes:
             model.add(layers.Dense(hidden_size, activation=activation))
             if use_batch_norm:
                 model.add(layers.BatchNormalization())
             model.add(layers.Dropout(dropout))
         
-        # Output layer
+        # 출력층
         model.add(layers.Dense(output_size))
         
         return model
     
     def get_model(self) -> models.Sequential:
-        """Return the built model."""
+        """구성된 모델을 반환합니다."""
         return self.model
 
 
 # ============================================================================
-# Training Engine
+# 학습 엔진
 # ============================================================================
 class Trainer:
-    """Train and evaluate the neural network."""
+    """신경망을 학습하고 평가합니다."""
     
     def __init__(self, model: models.Sequential, config: Config, 
                  verbose: int = 1):
@@ -210,7 +210,7 @@ class Trainer:
         self.history = None
     
     def _get_optimizer(self, train_cfg: Dict):
-        """Get optimizer based on configuration."""
+        """설정에 따라 옵티마이저를 반환합니다."""
         optimizer_name = train_cfg.get('optimizer', 'adam').lower()
         lr = train_cfg['learning_rate']
         weight_decay = train_cfg.get('weight_decay', 0)
@@ -225,7 +225,7 @@ class Trainer:
             return optimizers.Adam(learning_rate=lr, weight_decay=weight_decay)
     
     def _get_loss_fn(self, train_cfg: Dict):
-        """Get loss function based on configuration."""
+        """설정에 따라 손실 함수를 반환합니다."""
         loss_name = train_cfg.get('loss_fn', 'mse').lower()
         
         if loss_name == 'mae':
@@ -236,13 +236,13 @@ class Trainer:
             return losses.MeanSquaredError()
     
     def prepare_data(self, X: np.ndarray) -> np.ndarray:
-        """Normalize data."""
+        """데이터를 정규화합니다."""
         if self.config['data']['normalize']:
             X = self.scaler.fit_transform(X)
         return X.astype(np.float32)
     
     def compile_model(self):
-        """Compile the model."""
+        """모델을 컴파일합니다."""
         self.model.compile(
             optimizer=self.optimizer,
             loss=self.loss_fn,
@@ -251,13 +251,13 @@ class Trainer:
     
     def fit(self, X_train: np.ndarray, y_train: np.ndarray,
             X_val: np.ndarray, y_val: np.ndarray) -> keras.callbacks.History:
-        """Train the model."""
+        """모델을 학습합니다."""
         
         batch_size = self.config['training']['batch_size']
         epochs = self.config['training']['epochs']
         patience = self.config['training']['early_stopping_patience']
         
-        # Early stopping callback
+        # 얼리 스톱핑 콜백
         early_stop = callbacks.EarlyStopping(
             monitor='val_loss',
             patience=patience,
@@ -265,7 +265,7 @@ class Trainer:
             verbose=self.verbose
         )
         
-        # Reduce learning rate on plateau
+        # 학습률 감소 콜백
         reduce_lr = callbacks.ReduceLROnPlateau(
             monitor='val_loss',
             factor=0.5,
@@ -274,7 +274,7 @@ class Trainer:
             verbose=self.verbose
         )
         
-        # Train model
+        # 모델 학습
         self.history = self.model.fit(
             X_train, y_train,
             batch_size=batch_size,
@@ -287,12 +287,12 @@ class Trainer:
         return self.history
     
     def evaluate(self, X_test: np.ndarray, y_test: np.ndarray) -> Dict:
-        """Evaluate on test set."""
+        """테스트 세트에서 평가합니다."""
         
-        # Get model predictions
+        # 모델 예측 얻기
         predictions = self.model.predict(X_test, verbose=0)
         
-        # Calculate metrics
+        # 지표 계산
         test_loss = float(self.model.evaluate(X_test, y_test, verbose=0)[0])
         test_mse = mean_squared_error(y_test, predictions)
         test_mae = mean_absolute_error(y_test, predictions)
@@ -311,23 +311,23 @@ class Trainer:
 
 
 # ============================================================================
-# Visualization & Results
+# 시각화 및 결과
 # ============================================================================
 class ResultsVisualizer:
-    """Visualize training history and predictions."""
+    """학습 이력과 예측을 시각화합니다."""
     
     @staticmethod
     def plot_training_history(history: keras.callbacks.History, 
                              save_path: Optional[str] = None):
-        """Plot training and validation loss."""
+        """학습 및 검증 손실을 플롯합니다."""
         fig, ax = plt.subplots(figsize=(10, 6))
         
-        ax.plot(history.history['loss'], label='Train Loss', linewidth=2)
-        ax.plot(history.history['val_loss'], label='Validation Loss', linewidth=2)
+        ax.plot(history.history['loss'], label='학습 손실', linewidth=2)
+        ax.plot(history.history['val_loss'], label='검증 손실', linewidth=2)
         
-        ax.set_xlabel('Epoch', fontsize=12)
-        ax.set_ylabel('Loss', fontsize=12)
-        ax.set_title('C. elegans ANN Training History', fontsize=14, fontweight='bold')
+        ax.set_xlabel('에포크', fontsize=12)
+        ax.set_ylabel('손실', fontsize=12)
+        ax.set_title('C. elegans ANN 학습 이력', fontsize=14, fontweight='bold')
         ax.legend(fontsize=10)
         ax.grid(True, alpha=0.3)
         
@@ -338,24 +338,24 @@ class ResultsVisualizer:
     @staticmethod
     def plot_metrics_history(history: keras.callbacks.History,
                             save_path: Optional[str] = None):
-        """Plot MAE and MSE history."""
+        """MAE 및 MSE 이력을 플롯합니다."""
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
         
         # MAE
-        ax1.plot(history.history['mae'], label='Train MAE', linewidth=2)
-        ax1.plot(history.history['val_mae'], label='Validation MAE', linewidth=2)
-        ax1.set_xlabel('Epoch', fontsize=12)
+        ax1.plot(history.history['mae'], label='학습 MAE', linewidth=2)
+        ax1.plot(history.history['val_mae'], label='검증 MAE', linewidth=2)
+        ax1.set_xlabel('에포크', fontsize=12)
         ax1.set_ylabel('MAE', fontsize=12)
-        ax1.set_title('Mean Absolute Error', fontsize=12, fontweight='bold')
+        ax1.set_title('평균 절대 오차(MAE)', fontsize=12, fontweight='bold')
         ax1.legend(fontsize=10)
         ax1.grid(True, alpha=0.3)
         
         # MSE
-        ax2.plot(history.history['mse'], label='Train MSE', linewidth=2)
-        ax2.plot(history.history['val_mse'], label='Validation MSE', linewidth=2)
-        ax2.set_xlabel('Epoch', fontsize=12)
+        ax2.plot(history.history['mse'], label='학습 MSE', linewidth=2)
+        ax2.plot(history.history['val_mse'], label='검증 MSE', linewidth=2)
+        ax2.set_xlabel('에포크', fontsize=12)
         ax2.set_ylabel('MSE', fontsize=12)
-        ax2.set_title('Mean Squared Error', fontsize=12, fontweight='bold')
+        ax2.set_title('평균 제곱 오차(MSE)', fontsize=12, fontweight='bold')
         ax2.legend(fontsize=10)
         ax2.grid(True, alpha=0.3)
         
@@ -366,27 +366,27 @@ class ResultsVisualizer:
     @staticmethod
     def plot_predictions(targets: np.ndarray, predictions: np.ndarray, 
                         save_path: Optional[str] = None):
-        """Plot predictions vs targets."""
+        """타깃과 예측을 비교하여 플롯합니다."""
         fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
         
-        # Scatter plot
+        # 산점도
         ax1.scatter(targets, predictions, alpha=0.5, s=20)
         min_val = min(targets.min(), predictions.min())
         max_val = max(targets.max(), predictions.max())
-        ax1.plot([min_val, max_val], [min_val, max_val], 'r--', lw=2, label='Perfect Prediction')
-        ax1.set_xlabel('Target Values', fontsize=12)
-        ax1.set_ylabel('Predicted Values', fontsize=12)
-        ax1.set_title('Predictions vs Targets', fontsize=12, fontweight='bold')
+        ax1.plot([min_val, max_val], [min_val, max_val], 'r--', lw=2, label='완벽한 예측')
+        ax1.set_xlabel('타깃 값', fontsize=12)
+        ax1.set_ylabel('예측 값', fontsize=12)
+        ax1.set_title('예측 vs 타깃', fontsize=12, fontweight='bold')
         ax1.legend()
         ax1.grid(True, alpha=0.3)
         
-        # Residuals
+        # 잔차 분포
         residuals = targets.flatten() - predictions.flatten()
         ax2.hist(residuals, bins=30, edgecolor='black', alpha=0.7)
         ax2.axvline(x=0, color='r', linestyle='--', linewidth=2)
-        ax2.set_xlabel('Residuals', fontsize=12)
-        ax2.set_ylabel('Frequency', fontsize=12)
-        ax2.set_title('Residual Distribution', fontsize=12, fontweight='bold')
+        ax2.set_xlabel('잔차', fontsize=12)
+        ax2.set_ylabel('빈도', fontsize=12)
+        ax2.set_title('잔차 분포', fontsize=12, fontweight='bold')
         ax2.grid(True, alpha=0.3)
         
         if save_path:
@@ -395,7 +395,7 @@ class ResultsVisualizer:
     
     @staticmethod
     def plot_model_architecture(model: models.Sequential, save_path: Optional[str] = None):
-        """Plot model architecture."""
+        """모델 아키텍처를 플롯합니다."""
         try:
             fig = plt.figure(figsize=(10, 8))
             keras.utils.plot_model(
@@ -409,30 +409,30 @@ class ResultsVisualizer:
             if save_path:
                 plt.close()
         except Exception as e:
-            print(f"Could not plot model architecture: {e}")
+            print(f"모델 아키텍처를 플롯할 수 없습니다: {e}")
 
 
 # ============================================================================
-# Main Pipeline
+# 메인 파이프라인
 # ============================================================================
 def main():
-    """Complete C. elegans ANN pipeline using TensorFlow."""
+    """TensorFlow를 사용한 전체 C. elegans ANN 파이프라인."""
     
     print("=" * 70)
-    print("C. elegans Artificial Neural Network (ANN) - TensorFlow Version")
+    print("C. elegans 인공신경망(ANN) - TensorFlow 버전")
     print("=" * 70)
     
-    # Configuration
+    # 설정
     config = Config()
-    print(f"\nUsing TensorFlow version: {tf.__version__}")
-    print(f"GPU available: {len(tf.config.list_physical_devices('GPU')) > 0}")
+    print(f"\n사용 중인 TensorFlow 버전: {tf.__version__}")
+    print(f"GPU 사용 가능: {len(tf.config.list_physical_devices('GPU')) > 0}")
     
-    # Create results directory
+    # 결과 디렉토리 생성
     results_dir = Path(config['paths']['results_dir'])
     results_dir.mkdir(exist_ok=True)
     
-    # Generate synthetic C. elegans data
-    print("\n[1] Generating synthetic C. elegans dataset...")
+    # 합성 C. elegans 데이터 생성
+    print("\n[1] 합성 C. elegans 데이터셋 생성 중...")
     dataset = CElegansDataset(
         n_samples=1000,
         input_size=config['model']['input_size'],
@@ -446,27 +446,27 @@ def main():
         val_size=config['data']['validation_split']
     )
     
-    print(f"  Train set: {X_train.shape}")
-    print(f"  Validation set: {X_val.shape}")
-    print(f"  Test set: {X_test.shape}")
+    print(f"  학습 세트: {X_train.shape}")
+    print(f"  검증 세트: {X_val.shape}")
+    print(f"  테스트 세트: {X_test.shape}")
     
-    # Initialize model builder and trainer
-    print("\n[2] Building neural network model...")
+    # 모델 빌더 및 트레이너 초기화
+    print("\n[2] 신경망 모델 구성 중...")
     builder = CElegansANNBuilder(config)
     model = builder.get_model()
     
-    print(f"  Model Summary:")
+    print(f"  모델 요약:")
     model.summary()
     
     trainer = Trainer(model, config, verbose=1)
     
-    # Compile model
-    print("\n[3] Compiling model...")
+    # 모델 컴파일
+    print("\n[3] 모델 컴파일 중...")
     trainer.compile_model()
-    print("  Model compiled successfully")
+    print("  모델이 성공적으로 컴파일되었습니다")
     
-    # Prepare data
-    print("\n[4] Preparing data (normalization)...")
+    # 데이터 준비
+    print("\n[4] 데이터 준비 (정규화)...")
     X_train_norm = trainer.prepare_data(X_train)
     X_val_norm = trainer.prepare_data(X_val)
     X_test_norm = trainer.prepare_data(X_test)
@@ -475,34 +475,34 @@ def main():
     y_val = y_val.reshape(-1, 1) if len(y_val.shape) == 1 else y_val
     y_test = y_test.reshape(-1, 1) if len(y_test.shape) == 1 else y_test
     
-    print("  Data normalized and reshaped")
+    print("  데이터가 정규화되고 형태가 조정되었습니다")
     
-    # Train model
-    print("\n[5] Training model...")
+    # 모델 학습
+    print("\n[5] 모델 학습 중...")
     history = trainer.fit(X_train_norm, y_train, X_val_norm, y_val)
     
-    # Evaluate on test set
-    print("\n[6] Evaluating on test set...")
+    # 테스트 세트에서 평가
+    print("\n[6] 테스트 세트에서 평가 중...")
     test_results = trainer.evaluate(X_test_norm, y_test)
-    print(f"  Test Loss: {test_results['test_loss']:.6f}")
-    print(f"  Test MSE: {test_results['test_mse']:.6f}")
-    print(f"  Test MAE: {test_results['test_mae']:.6f}")
-    print(f"  Test R²: {test_results['test_r2']:.6f}")
+    print(f"  테스트 손실: {test_results['test_loss']:.6f}")
+    print(f"  테스트 MSE: {test_results['test_mse']:.6f}")
+    print(f"  테스트 MAE: {test_results['test_mae']:.6f}")
+    print(f"  테스트 R²: {test_results['test_r2']:.6f}")
     
-    # Save results
-    print("\n[7] Saving results...")
+    # 결과 저장
+    print("\n[7] 결과 저장 중...")
     
-    # Save model
+    # 모델 저장
     model_path = results_dir / 'elegans_ann_model.keras'
     model.save(model_path)
-    print(f"  Model saved to: {model_path}")
+    print(f"  모델이 저장됨: {model_path}")
     
-    # Save model weights
+    # 모델 가중치 저장
     weights_path = results_dir / 'elegans_ann_weights.h5'
     model.save_weights(weights_path)
-    print(f"  Model weights saved to: {weights_path}")
+    print(f"  모델 가중치가 저장됨: {weights_path}")
     
-    # Save training history
+    # 학습 이력 저장
     history_path = results_dir / 'training_history.json'
     history_data = {
         'loss': [float(x) for x in history.history['loss']],
@@ -514,9 +514,9 @@ def main():
     }
     with open(history_path, 'w') as f:
         json.dump(history_data, f, indent=2)
-    print(f"  History saved to: {history_path}")
+    print(f"  학습 이력이 저장됨: {history_path}")
     
-    # Save test results
+    # 테스트 결과 저장
     results_path = results_dir / 'test_results.json'
     with open(results_path, 'w') as f:
         json.dump({
@@ -525,51 +525,51 @@ def main():
             'test_mae': float(test_results['test_mae']),
             'test_r2': float(test_results['test_r2']),
         }, f, indent=2)
-    print(f"  Results saved to: {results_path}")
+    print(f"  결과가 저장됨: {results_path}")
     
-    # Save configuration
+    # 설정 저장
     config_path = results_dir / 'training_config.json'
     with open(config_path, 'w') as f:
         json.dump(config.config, f, indent=2)
-    print(f"  Configuration saved to: {config_path}")
+    print(f"  설정이 저장됨: {config_path}")
     
-    # Generate visualizations
-    print("\n[8] Generating visualizations...")
+    # 시각화 생성
+    print("\n[8] 시각화 생성 중...")
     
     viz = ResultsVisualizer()
     
     loss_plot = results_dir / 'training_history.png'
     viz.plot_training_history(history, save_path=loss_plot)
-    print(f"  Training history plot saved to: {loss_plot}")
+    print(f"  학습 이력 플롯 저장됨: {loss_plot}")
     
     metrics_plot = results_dir / 'metrics_history.png'
     viz.plot_metrics_history(history, save_path=metrics_plot)
-    print(f"  Metrics history plot saved to: {metrics_plot}")
+    print(f"  지표 이력 플롯 저장됨: {metrics_plot}")
     
     pred_plot = results_dir / 'predictions.png'
     viz.plot_predictions(y_test, test_results['predictions'], 
                         save_path=pred_plot)
-    print(f"  Predictions plot saved to: {pred_plot}")
+    print(f"  예측 플롯 저장됨: {pred_plot}")
     
-    # Summary Report
+    # 요약 리포트
     print("\n" + "=" * 70)
-    print("TRAINING COMPLETE - SUMMARY REPORT")
+    print("학습 완료 - 요약 리포트")
     print("=" * 70)
-    print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Total Epochs: {len(history.history['loss'])}")
-    print(f"Best Validation Loss: {min(history.history['val_loss']):.6f}")
-    print(f"\nTest Set Performance:")
-    print(f"  Loss: {test_results['test_loss']:.6f}")
+    print(f"타임스탬프: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"총 에포크 수: {len(history.history['loss'])}")
+    print(f"최저 검증 손실: {min(history.history['val_loss']):.6f}")
+    print(f"\n테스트 세트 성능:")
+    print(f"  손실: {test_results['test_loss']:.6f}")
     print(f"  MSE:  {test_results['test_mse']:.6f}")
     print(f"  MAE:  {test_results['test_mae']:.6f}")
     print(f"  R²:   {test_results['test_r2']:.6f}")
-    print(f"\nModel Configuration:")
-    print(f"  Input Size: {config['model']['input_size']}")
-    print(f"  Hidden Layers: {config['model']['hidden_sizes']}")
-    print(f"  Output Size: {config['model']['output_size']}")
-    print(f"  Activation: {config['model']['activation']}")
-    print(f"  Dropout: {config['model']['dropout']}")
-    print(f"\nResults saved in: {results_dir.absolute()}")
+    print(f"\n모델 구성:")
+    print(f"  입력 크기: {config['model']['input_size']}")
+    print(f"  은닉층: {config['model']['hidden_sizes']}")
+    print(f"  출력 크기: {config['model']['output_size']}")
+    print(f"  활성화 함수: {config['model']['activation']}")
+    print(f"  드롭아웃: {config['model']['dropout']}")
+    print(f"\n결과가 저장된 위치: {results_dir.absolute()}")
     print("=" * 70)
 
 
